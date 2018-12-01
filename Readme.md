@@ -1,5 +1,5 @@
 # Marketplace Containers
-Up the whole marketplace using one command. 
+Up the whole marketplace using one command.
 Clones all the repos required in your docker images and creates a container with service running.
 All dependencies included.
 
@@ -8,26 +8,6 @@ All dependencies included.
 ```
 coffee docker.coffee
 ```
-
-![Select from Dropdown Services to Deploy](doc/start.png)
-
-* cotainers will build and start automatically 
-
-![Building Containers and deploying](doc/build.png)
-
-* to start the containers when closed, use ( -d flag is to run in 
-background )
-```
-docker-compose up -d
-```
-* to check what containers are running use 
-`docker-compose`
-
-![Docker Compose PS](doc/ps.png)
-
-* or you can use `docker ps`
-
-![Docker Compose PS](doc/docker-ps.png)
 
 ## Setup
 * install docker, see installation here. [Docker Installation](https://docs.docker.com/install/)
