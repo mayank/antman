@@ -1,0 +1,17 @@
+wingify-cart:
+  from: ubuntu:16.04
+  use:
+    php:
+    git:
+      dir: "/var/www/html/"
+      repo: "https://github.com/mayank/wingify-cart.git"
+    cmd:
+      - in: /var/www/html/
+        fire: 
+          - composer dump-autoload
+    run:
+    sync:
+      - /bin/bash /var/www/html/start.sh
+  service:
+    ports:
+      - 8000

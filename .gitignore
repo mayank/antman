@@ -1,0 +1,5 @@
+node_modules/
+config/keys/id_rsa
+config/keys/id_rsa.pub
+tmp/
+docker-compose.yml

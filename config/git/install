@@ -1,0 +1,2 @@
+RUN apt-get update && apt-get install git -y
+RUN mkdir -p $gitdir && git clone $gitrepo $gitdir

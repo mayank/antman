@@ -1,0 +1,5 @@
+wingify-cart-database:
+   from: mariadb:latest
+   service:
+     environment:
+       MYSQL_ROOT_PASSWORD: root

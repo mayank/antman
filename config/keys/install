@@ -1,0 +1,8 @@
+RUN mkdir /root/.ssh
+RUN apt-get install openssh-client -y
+
+COPY id_rsa /root/.ssh/id_rsa
+COPY id_rsa.pub /root/.ssh/id_rsa.pub
+
+RUN chmod -R 600 /root/.ssh
+RUN eval $(ssh-agent -s) && ssh-add /root/.ssh/id_rsa

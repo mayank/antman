@@ -1,0 +1,2 @@
+RUN apt-get update && apt-get install php php-mysql php-mcrypt -y
+RUN apt-get install curl -y && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer && apt-get purge curl -y
