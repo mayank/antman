@@ -1,7 +1,6 @@
-# Marketplace Containers
-Up the whole marketplace using one command.
-Clones all the repos required in your docker images and creates a container with service running.
-All dependencies included.
+# Antman
+Creates docker images and docker-compose using single yml file. Reduces load of dependencies.
+
 
 ## Start Commands
 * run `docker.coffee` file to build all the images with latest tags
