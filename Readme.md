@@ -1,4 +1,6 @@
 # Antman
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmayank%2Fantman.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmayank%2Fantman?ref=badge_shield)
+
 Creates docker images and docker-compose using single yml file. Reduces load of dependencies.
 
 
@@ -24,3 +26,7 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 See the link for other machines. [Docker Compose Installation](https://docs.docker.com/compose/install/#install-compose)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmayank%2Fantman.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmayank%2Fantman?ref=badge_large)
